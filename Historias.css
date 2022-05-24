@@ -1,0 +1,136 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-size: cover;
+}
+
+h1 {
+    margin: 2%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    margin-right: 2%;
+    margin-left: 2%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.btn {
+    width: 90%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+
+#art-cienfic {
+    background-color: #7d489b;
+    text-align: center;
+    display: block;
+    margin-top: 25%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+#art-terror {
+    background-color: rgb(42, 44, 44);
+    text-align: center;
+    display: block;
+    margin-top: 25%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+#art-love {
+    background-color: rgb(223, 58, 91); 
+    text-align: center;
+    display: block;
+    margin-top: 25%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+#art-refle {
+    background-color: rgb(73, 87, 165);
+    text-align: center;
+    display: block;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+#art-susp {
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    display: block;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+#art-poli {
+    background-color: #327ace;
+    text-align: center;
+    display: block;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+.navbar {
+    font-size: 1.4rem;
+    padding: 1%;
+    /* background-color: transparent !important; */
+    position: fixed;
+    width: 100%;
+}
+
+.nav-item {
+    padding-left: 5%;
+    padding-right: 5%;
+    min-width: fit-content;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    /* border-radius: 50%; */
+}
+
+.navbar-nav {
+    /* margin-left: 45%; */
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    transition: all 300ms;
+    position: relative;
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+}
