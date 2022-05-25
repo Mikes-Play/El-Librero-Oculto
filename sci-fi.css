@@ -35,7 +35,7 @@ p {
     margin-left: 1%;
 }
 
-#art-1, #art-2 {
+#art-1, #historia {
     background-color: #60b7ca;
     text-align: center;
     display: block;
@@ -53,8 +53,13 @@ p {
     margin-top: 9%;
 }
 
-#art-2 {
+#historia {
     margin-bottom: 5%;
+}
+
+#texto {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4rem:
 }
 
 
