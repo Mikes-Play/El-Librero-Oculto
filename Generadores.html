@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="generadores.css">
+    <link rel="stylesheet" href="">
     <title> El Librero Oculto </title>
 </head>
 
@@ -51,18 +52,113 @@
                     <p>
                       En esta pequeña sección, vas a poder crear tus titulos, tus tramas y seleccionar tus personajes de forma aleatoria, para poder empezar una nueva historia desde algún lado <br>
                       Estos son los generadores disponibles: <br> <br>
-                      Creador de medio titulo <a role="button" class="btn btn-outline-dark" id="btn-gen" href="#"> Vamos </a> <br> <br>
-                      Generador de tramas <a role="button" class="btn btn-outline-dark" id="btn-gen" href="#"> Vamos </a> <br> <br>
-                      Creador de Personajes <a role="button" class="btn btn-outline-dark" id="btn-gen" href="#"> Vamos </a> <br> <br>
+                      Creador de medio titulo <a role="button" class="btn btn-outline-dark" id="btn-gen1" href="#"> Vamos </a> <br> <br>
+                      Generador de tramas <a role="button" class="btn btn-outline-dark" id="btn-gen2" href="#"> Vamos </a> <br> <br>
+                      Creador de Personajes <a role="button" class="btn btn-outline-dark" id="btn-gen3" href="#"> Vamos </a> <br> <br>
 
                     </p>
                 </article>
 
                 <article id="art-2">
-                    <h1> Creador de Medio Titulo </h1>
-                    <p>
-                      
-                    </p>
+                    <h1 class="titulo"> Creador de Medio Titulo </h1>
+                    <div class="row">
+                      <div class="col-4" id="Inicios">
+                        <p>Elije un Inicio:</p>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault" id="input">
+                            
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="col-4" id="finales">
+                        <p>Elije un Final:</p>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="col-4" id="btns">
+                        <a role="button" class="btn btn-outline-dark" id="btn-new-gen" href="#" style="width: 80%;"> Nuevos comienzos y finales </a> <br> <br>
+                        <a role="button" class="btn btn-outline-dark" id="btn-final" href="#" style="width: 80%;"> Obtener Titulos </a>
+                      </div>
+                    </div>
                 </article>
 
                 <article id="art-3">
@@ -77,12 +173,15 @@
                 <p>
                   
                 </p>
-            </article>
+              </article>
             </div>
-</div>
+        </div>
     </div>
 
+    <script src="generadores.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>

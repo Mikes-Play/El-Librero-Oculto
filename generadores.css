@@ -55,8 +55,27 @@ p {
 
 #art-2 {
     margin-bottom: 5%;
+    text-align: left;
 }
 
+#btns {
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.form-check {
+    display: block;
+    margin-left: 3%;
+    margin-top: 2.5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem ;
+
+}
 
 .btn {
     width: 15%;
