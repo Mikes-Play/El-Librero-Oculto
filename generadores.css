@@ -6,38 +6,52 @@ body {
     background-size: cover;
 }
 
-h1 {
-    margin: 2%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
+.btn {
+    width: 30%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: auto;
 }
 
-h2 {
-    font-weight: 600;
+h1 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 p {
-    margin-right: 2%;
-    margin-left: 2%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.3rem;
-    font-weight: bold;
+    display: inline;
 }
 
-.text-art-2 {
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-right: 3%;
-    margin-left: 1%;
+h3, #Inicios, #Finales {
+    margin-left: 35%;
 }
+
+#titulos {
+    border: 1px black solid;
+    height: 150px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+#titulo {
+    text-align: center;
+    margin-top: 2%; 
+}
+
+#boton-inicios, #boton-titulos, #boton-finales {
+    margin-left: 20%;
+}
+
 
 #art-1, #art-2, #art-3, #art-4 {
     background-color: #60b7ca;
-    text-align: center;
+    text-align: left;
     display: block;
     margin-left: 9%;
     margin-right: 4.8%;
@@ -78,7 +92,7 @@ p {
 }
 
 .btn {
-    width: 15%;
+    width: 55%;
     margin-bottom: 1%;
     margin-top: 1%;
     margin-left: 3%;
